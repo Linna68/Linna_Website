@@ -1,0 +1,92 @@
+/* Main Container */
+.fun-things-page {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+ /* 🔹 Navigation Bar Styling */
+.navigation-bar {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 30px;
+    margin-left: 750px;
+    margin-top: 30px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 700;
+    color: #83433B;
+  }
+  
+  .nav-link:hover {
+    color: #13363d;
+    transition: 0.1s ease-in-out;
+  }
+
+
+  
+  .fun-tab {
+    font-family: 'Pacifico', cursive;
+    font-size: 22px;
+    color: #6b705c;
+  }
+  
+  .fun-tab:hover {
+      color: #13363d;
+      transition: 0.1s ease-in-out;
+    }
+  
+  /* Title */
+  .fun-things-title {
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    color: #13363d;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  /* Cards Layout */
+  .fun-things-cards {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+  }
+  
+  /* Individual Card */
+  .fun-card {
+    width: 360px;
+    text-align: center;
+    border-radius: 16px;
+    text-decoration: none;
+    background-color: #f9f9f9;
+    padding: 16px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .fun-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .fun-image {
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+  }
+  
+  .fun-caption {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #83433B;
+    margin-top: 12px;
+  }
+  

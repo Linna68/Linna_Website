@@ -1,0 +1,185 @@
+.sophia-page {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  /* 🔹 Navigation Bar Styling */
+.navigation-bar {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 30px;
+    margin-left: 750px;
+    margin-top: 30px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 700;
+    color: #83433B;
+  }
+  
+  .nav-link:hover {
+    color: #13363d;
+    transition: 0.1s ease-in-out;
+  }
+
+
+  
+  .fun-tab {
+    font-family: 'Pacifico', cursive;
+    font-size: 22px;
+    color: #6b705c;
+  }
+  
+  .fun-tab:hover {
+      color: #13363d;
+      transition: 0.1s ease-in-out;
+    }
+  
+  
+  .return-button {
+    background: none;
+    border: none;
+    color: #6b705c;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    margin-left: -800px;
+    margin-bottom: 20px;
+    
+  }
+  
+  .sophia-gallery {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .sophia-photo {
+    height: 550px;
+    width: 430px;
+    border-radius: 16px;
+    object-fit: cover;
+    margin-left: -100px;
+  }
+  
+  .sophia-info {
+    max-width: 400px;
+    
+  }
+  
+  .sophia-title {
+    font-family: "Pacifico", cursive;
+    font-size: 48px;
+    color: #13363d;
+    margin-top: 10px;
+    margin-left: 260px;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  .sophia-desc {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    color: #13363d;
+    line-height: 1.6;
+    text-align: center;
+    margin-right: -280px
+  }
+  
+  .sophia-buttons {
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+    margin-left: 130px;
+  }
+  
+  .bath-btn,
+  .pet-btn {
+    padding: 12px 24px;
+    min-width: 140px;
+    font-family: "Pacifico", cursive;
+    font-size: 20px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-left: 50px
+  }
+  
+  .bath-btn {
+    background-color: #aaa088;
+    color: #fff;
+  }
+  
+  .pet-btn {
+    background-color: #6b705c;
+    color: #fff;
+    
+  }
+  
+  /* Affection Bar */
+  .affection-container {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    justify-content: center;
+  }
+  
+  .emoji {
+    font-size: 24px;
+    margin-right: 8px;
+  }
+  
+  .affection-bar {
+    width: 240px;
+    height: 12px;
+    background-color: #dcdcdc;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  .affection-fill {
+    height: 100%;
+    background-color: #83433b;
+    transition: width 0.4s ease;
+    border-radius: 12px 0 0 12px;
+  }
+  
+  .anthem-tooltip {
+    position: absolute;
+    top: 200px;
+    left: 70%;
+    transform: translateX(-50%);
+    background-color: #fff4e6;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    color: #68322e;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    z-index: 10;
+  }
+
+
+  
+  .sophia-title.playing {
+    animation: bounce 1.0s infinite alternate ease-in-out;
+  }
+  
+  @keyframes bounce {
+    0% { transform: translateY(0); }
+    25%  { transform: rotate(5deg); }
+    75%  { transform: rotate(-5deg); }
+    100% { transform: translateY(-15px); }
+  }
