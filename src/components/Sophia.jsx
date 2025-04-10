@@ -5,6 +5,10 @@ import "../styles/sophia.css";
 import sophia1 from "../assets/sophia_1.png";
 import sophia2 from "../assets/sophia_2.png";
 import sophia3 from "../assets/sophia_3.png";
+import sophia4 from "../assets/sophia_4.png";
+import sophia5 from "../assets/sophia_5.png";
+import sophia6 from "../assets/sophia_6.png";
+import sophia7 from "../assets/sophia_7.png";
 import enemy from "../assets/enemy.png";
 import loyal from "../assets/loyal.png";
 
@@ -13,7 +17,7 @@ import anthem from "../assets/Queen_Cat_Sophia.mp3"
 
 
 export const Sophia = () => {
-  const photos = [sophia1, sophia2, sophia3];
+  const photos = [sophia1, sophia2, sophia3, sophia4, sophia5, sophia6, sophia7];
   const affectionStart = 10;
   const affectionMaxNormal = 90;
   const affectionEnd = 100;
